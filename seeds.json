@@ -2,7 +2,7 @@
   "说明": "种子配置源。github：GitHub 原始地址，生成清单时自动展开成“各加速前缀 + 原始地址”，再加上 jsDelivr、fastly 和原始地址本身；urls：直接写死的地址（自有域名的配置）。清单按国内可访问性排序：Gitee 副本、加速前缀和自有域名、jsDelivr 与 GitHub 直连；同一档里保持这里的组顺序。plugin=true 表示站点依赖插件（应用会下载并运行 jar），只放你信任的来源。mirror：搬运到 Gitee 时的副本文件名（只搬运不依赖插件的配置；应用内置的 Gitee 地址用的就是这些文件名，不要随便改）。",
   "gitee": {
     "说明": "国内可访问的 Gitee 仓库（用户名/仓库名）。填了之后，定时任务会把直连配置和直播列表的副本放到 mirror/ 目录、连同清单推送过去，清单里 Gitee 副本排最前。应用里的 ConfigManifest.GITEE_REPO 要填同一个仓库。",
-    "repo": "",
+    "repo": "xiao7/tvappconfig",
     "branch": "master"
   },
   "proxies": {
