@@ -1,0 +1,89 @@
+{
+  "说明": "种子配置源。github：GitHub 原始地址，生成清单时自动展开成“各加速前缀 + 原始地址”，再加上 jsDelivr、fastly 和原始地址本身；urls：直接写死的地址（自有域名的配置）。清单按国内可访问性排序：Gitee 副本、加速前缀和自有域名、jsDelivr 与 GitHub 直连；同一档里保持这里的组顺序。plugin=true 表示站点依赖插件（应用会下载并运行 jar），只放你信任的来源。mirror：搬运到 Gitee 时的副本文件名（只搬运不依赖插件的配置；应用内置的 Gitee 地址用的就是这些文件名，不要随便改）。",
+  "gitee": {
+    "说明": "国内可访问的 Gitee 仓库（用户名/仓库名）。填了之后，定时任务会把直连配置和直播列表的副本放到 mirror/ 目录、连同清单推送过去，清单里 Gitee 副本排最前。应用里的 ConfigManifest.GITEE_REPO 要填同一个仓库。",
+    "repo": "",
+    "branch": "master"
+  },
+  "proxies": {
+    "说明": "GitHub 加速前缀，与应用 BuiltinConfig.PROXY_PREFIXES 保持一致；哪个失效或有新的，两边一起改",
+    "list": [
+      "https://gh-proxy.com/",
+      "https://ghfast.top/",
+      "https://ghproxy.net/",
+      "https://gh.llkk.cc/"
+    ]
+  },
+  "vod": [
+    {
+      "name": "hkuc 直连",
+      "plugin": false,
+      "github": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/0/anaer_meow.json",
+      "mirror": "hkuc"
+    },
+    {
+      "name": "25175/tvyuan 直连",
+      "plugin": false,
+      "github": "https://raw.githubusercontent.com/25175/tvyuan/master/tvbox.json",
+      "mirror": "tvyuan"
+    },
+    {
+      "name": "饭太硬",
+      "plugin": true,
+      "urls": [
+        "http://www.xn--sss604efuw.net/tv"
+      ]
+    },
+    {
+      "name": "肥猫",
+      "plugin": true,
+      "urls": [
+        "http://xn--z7x900a.net/"
+      ]
+    },
+    {
+      "name": "liu673cn/box",
+      "plugin": true,
+      "github": "https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+    },
+    {
+      "name": "qist/tvbox",
+      "plugin": true,
+      "github": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+    },
+    {
+      "name": "xiaolei7172/tvbox",
+      "plugin": true,
+      "github": "https://raw.githubusercontent.com/xiaolei7172/tvbox/master/dianshi.json"
+    },
+    {
+      "name": "gaotianliuyun",
+      "plugin": true,
+      "github": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+    }
+  ],
+  "live": [
+    {
+      "name": "vbskycn 每日校验",
+      "github": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+      "mirror": "vbskycn"
+    },
+    {
+      "name": "ssili126",
+      "github": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "mirror": "ssili126"
+    }
+  ],
+  "discover": {
+    "说明": "自动发现：在 GitHub 上搜索这些关键词，只收不带插件、直连站点实测能返回片库的配置",
+    "queries": [
+      "tvbox 配置",
+      "tvbox config json",
+      "影视仓 接口"
+    ],
+    "max_repos": 30,
+    "max_accept": 5,
+    "min_direct_sites": 5,
+    "min_working_sites": 3
+  }
+}
