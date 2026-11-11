@@ -32,8 +32,15 @@ def main():
     remote = os.environ.get("GITEE_REMOTE") or f"https://{user}:{token}@gitee.com/{repo}.git"
     work = tempfile.mkdtemp()
     try:
-        if run(["git", "clone", "--depth", "1", "-b", branch, remote, work], ROOT, check=False).returncode != 0:
-            # 空仓库或分支还不存在：新建
+        clone = run(["git", "clone", "--depth", "1", "-b", branch, remote, work], ROOT, check=False)
+        if clone.returncode != 0:
+            message = clone.stderr.replace(token, "***")
+            # 只有“仓库是空的 / 分支不存在”才新建；登录失败、仓库不存在等直接报错说明原因
+            if "not found in upstream" not in message and "empty repository" not in message:
+                auth_failed = any(k in message for k in ("Authentication failed", "403", "401", "could not read Username", "Access denied"))
+                hint = "Gitee 用户名或令牌不对（GITEE_USER 要填 Gitee 用户名，令牌要勾选 projects 权限）" if auth_failed else "找不到 Gitee 仓库或分支（检查 seeds.json 里的 gitee.repo / gitee.branch）"
+                sys.exit("克隆 Gitee 仓库失败：" + hint + chr(10) + message[-500:])
+            os.makedirs(work, exist_ok=True)
             run(["git", "init", "-b", branch], work)
             run(["git", "remote", "add", "origin", remote], work)
         for name in ("manifest", "mirror"):

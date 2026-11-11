@@ -34,12 +34,6 @@ jobs:
           MANIFEST_SIGNING_KEY: ${{ secrets.MANIFEST_SIGNING_KEY }}
         run: python tools/sign_manifest.py
 
-      - name: 同步到 Gitee（国内可访问）
-        env:
-          GITEE_USER: ${{ secrets.GITEE_USER }}
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        run: python tools/sync_gitee.py
-
       - name: 有变化才提交
         run: |
           git config user.name "github-actions[bot]"
@@ -52,3 +46,10 @@ jobs:
             git commit -m "自动更新配置源清单"
             git push
           fi
+
+      # 先提交 GitHub 再同步 Gitee：Gitee 出问题时，GitHub 上的清单照样更新
+      - name: 同步到 Gitee（国内可访问）
+        env:
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: python tools/sync_gitee.py
