@@ -1,26 +1,8 @@
 {
   "sites": [
     {
-      "key": "zy_lziapi",
-      "name": "速优 [94ms·149KB/s]",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "量子",
-      "name": "🍀｜量子｜采集 [150ms·95KB/s]",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "淘片资源",
-      "name": "❤淘片资源 [460ms·87KB/s]",
+      "name": "❤淘片资源 [1261ms·133KB/s]",
       "type": 1,
       "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
       "searchable": 1,
@@ -28,26 +10,35 @@
       "changeable": 0
     },
     {
-      "key": "csp_xml_红牛",
-      "name": "❤红牛资源 [234ms·26KB/s]",
+      "key": "量子",
+      "name": "🍀｜量子｜采集 [137ms·105KB/s]",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "暴風",
-      "name": "影视 • 暴風[直连] [644ms·22KB/s]",
+      "name": "暴風┃采集 [229ms·62KB/s]",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
+      "key": "zy_lziapi",
+      "name": "速优 [437ms·33KB/s]",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "率率",
-      "name": "影视 • 率率[直连] [370ms·18KB/s]",
+      "name": "影视 • 率率[直连] [251ms·27KB/s]",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -55,17 +46,53 @@
       "changeable": 1
     },
     {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连] [399ms·16KB/s]",
+      "key": "tv_back-023_量子资源",
+      "name": "🥑┃量子┃资源·ok线路1 [579ms·25KB/s]",
       "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "api": "https://lzizy1.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "非凡2",
-      "name": "🍀｜非凡｜采集 [402ms·15KB/s]",
+      "key": "csp_xml_红牛",
+      "name": "❤红牛资源 [268ms·22KB/s]",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "tv_back-023_火狐",
+      "name": "🦊火狐采集·ok线路1 [314ms·21KB/s]",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "tv_back-023_虎牙",
+      "name": "🐯虎牙采集·ok线路1 [352ms·18KB/s]",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "索尼",
+      "name": "影视 • 索尼[直连] [327ms·17KB/s]",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "非凡",
+      "name": "🍀｜非凡｜采集 [395ms·16KB/s]",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -82,17 +109,8 @@
       "changeable": 0
     },
     {
-      "key": "csp_xml_ckzy",
-      "name": "❤ckzy [374ms·12KB/s]",
-      "type": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "天堂",
-      "name": "🍀｜天堂｜采集 [485ms·12KB/s]",
+      "name": "🍀｜天堂｜采集 [393ms·15KB/s]",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
       "searchable": 1,
@@ -100,35 +118,26 @@
       "changeable": 0
     },
     {
-      "key": "天涯采集",
-      "name": "影视 • 天涯 [559ms·10KB/s]",
+      "key": "csp_xml_新浪",
+      "name": "❤新浪资源 [488ms·14KB/s]",
       "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "tv_back-023_量子资源",
-      "name": "🥑┃量子┃资源·ok线路1 [2174ms·6.5KB/s]",
-      "type": 1,
-      "api": "https://lzizy1.com/api.php/provide/vod/",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "非凡3",
-      "name": "非凡┃采集 [916ms·5.6KB/s]",
-      "type": 0,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "key": "非凡2",
+      "name": "影视 • 非凡[直连] [440ms·14KB/s]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 0
     },
     {
       "key": "zy_新浪资源",
-      "name": "新浪 [1771ms·4.1KB/s]",
+      "name": "新浪 [525ms·13KB/s]",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
       "searchable": 1,
@@ -136,8 +145,17 @@
       "changeable": 0
     },
     {
+      "key": "csp_xml_百度",
+      "name": "❤百度 [506ms·12KB/s]",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "电影天堂",
-      "name": "影视 • 电影天堂 [1615ms·3.8KB/s]",
+      "name": "影视 • 电影天堂 [497ms·12KB/s]",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -145,17 +163,8 @@
       "changeable": 1
     },
     {
-      "key": "csp_xml_光速",
-      "name": "❤光速资源 [3057ms·2.2KB/s]",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "csp_xml_闪电资源",
-      "name": "❤闪电资源 [2892ms·1.7KB/s]",
+      "name": "❤闪电资源 [538ms·12KB/s]",
       "type": 1,
       "api": "https://sdzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -163,22 +172,13 @@
       "changeable": 0
     },
     {
-      "key": "tv_back-023_虎牙",
-      "name": "🐯虎牙采集·ok线路1 [7184ms·0.9KB/s]",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "key": "非凡3",
+      "name": "非凡┃采集 [509ms·10KB/s]",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "csp_xml_百度",
-      "name": "❤百度 [7545ms·0.8KB/s]",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     }
   ]
 }
