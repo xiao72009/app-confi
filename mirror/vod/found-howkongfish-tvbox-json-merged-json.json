@@ -1,6 +1,6 @@
 {
  "name": "TVBox 活站合并（自动生成 2026-11-06）",
- "version": "2026-11-14",
+ "version": "2026-11-15",
  "spider": "",
  "wallpaper": "",
  "sites": [
@@ -41,7 +41,7 @@
    "filterable": 1
   },
   {
-   "key": "live031",
+   "key": "live032",
    "name": "💝分享迷你",
    "type": 1,
    "api": "https://qp.69mini.com/api.php/provide/vod",
@@ -50,10 +50,19 @@
    "filterable": 1
   },
   {
-   "key": "live033",
+   "key": "live034",
    "name": "极速┃零一",
    "type": 1,
    "api": "https://ww96.taiee.xyz/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live035",
+   "name": "👭播剧影视👭",
+   "type": 1,
+   "api": "https://www.ysxq.cc/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
@@ -113,7 +122,7 @@
    "filterable": 1
   },
   {
-   "key": "live039",
+   "key": "live017",
    "name": "量子影视",
    "type": 1,
    "api": "https://www.lzzy.tv/api.php/provide/vod",
@@ -176,15 +185,6 @@
    "filterable": 1
   },
   {
-   "key": "live034",
-   "name": "👭播剧影视👭",
-   "type": 1,
-   "api": "https://www.ysxq.cc/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "live075",
    "name": "💝分享爬虫",
    "type": 1,
@@ -203,7 +203,7 @@
    "filterable": 1
   },
   {
-   "key": "live032",
+   "key": "live033",
    "name": "43-HG",
    "type": 1,
    "api": "https://hong.hgyx.vip/api.php/provide/vod",
@@ -230,7 +230,7 @@
    "filterable": 1
   },
   {
-   "key": "live021",
+   "key": "live022",
    "name": "如意｜采集",
    "type": 1,
    "api": "https://cj.rycjapi.com/api.php/provide/vod/at/json",
@@ -239,19 +239,10 @@
    "filterable": 1
   },
   {
-   "key": "live025",
+   "key": "live026",
    "name": "非凡资源",
    "type": 1,
    "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live026",
-   "name": "影视 | 非凡[直连]",
-   "type": 1,
-   "api": "https://ffzy.tv/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
@@ -267,6 +258,15 @@
   },
   {
    "key": "live028",
+   "name": "影视 | 非凡[直连]",
+   "type": 1,
+   "api": "https://ffzy.tv/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live029",
    "name": "🥗┃非凡┃资源",
    "type": 1,
    "api": "https://ffzy1.tv/api.php/provide/vod",
@@ -320,7 +320,7 @@
    "filterable": 1
   },
   {
-   "key": "live022",
+   "key": "live023",
    "name": "影视 | 电影天堂",
    "type": 1,
    "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -329,8 +329,8 @@
    "filterable": 1
   },
   {
-   "key": "live023",
-   "name": "️天堂┃采集",
+   "key": "live025",
+   "name": "🍀｜天堂｜采集",
    "type": 1,
    "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8",
    "searchable": 1,
@@ -338,7 +338,7 @@
    "filterable": 1
   },
   {
-   "key": "live038",
+   "key": "live039",
    "name": "西瓜资源",
    "type": 1,
    "api": "https://xiguazy.tv/api.php/provide/vod",
@@ -437,8 +437,8 @@
    "filterable": 1
   },
   {
-   "key": "live017",
-   "name": "影视 | 天涯",
+   "key": "live019",
+   "name": "站点",
    "type": 1,
    "api": "https://tyyszy.com/api.php/provide/vod",
    "searchable": 1,
@@ -446,7 +446,7 @@
    "filterable": 1
   },
   {
-   "key": "live019",
+   "key": "live020",
    "name": "天涯API",
    "type": 1,
    "api": "https://tyyszyapi.com/api.php/provide/vod",
@@ -455,7 +455,7 @@
    "filterable": 1
   },
   {
-   "key": "live020",
+   "key": "live021",
    "name": "天涯资源",
    "type": 1,
    "api": "https://ty.tyyszy5.com/api.php/provide/vod",
@@ -464,7 +464,7 @@
    "filterable": 1
   },
   {
-   "key": "live029",
+   "key": "live030",
    "name": "🕹️淘片┃采集",
    "type": 1,
    "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
@@ -473,7 +473,7 @@
    "filterable": 1
   },
   {
-   "key": "live030",
+   "key": "live031",
    "name": "淘片资源",
    "type": 1,
    "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
@@ -482,7 +482,7 @@
    "filterable": 1
   },
   {
-   "key": "live035",
+   "key": "live036",
    "name": "CNTV低分辨",
    "type": 1,
    "api": "https://zhangqun1818.serv00.net/cctv.php",
@@ -491,7 +491,7 @@
    "filterable": 1
   },
   {
-   "key": "live036",
+   "key": "live037",
    "name": "CCTV",
    "type": 1,
    "api": "https://zhangqun19.serv00.net/cctv.php",
@@ -500,7 +500,7 @@
    "filterable": 1
   },
   {
-   "key": "live037",
+   "key": "live038",
    "name": "优质",
    "type": 1,
    "api": "https://api.yzzy-api.com/inc/apijson.php",
@@ -726,7 +726,7 @@
   },
   {
    "key": "live081",
-   "name": "影视 | 索尼[直连]",
+   "name": "站点(2)",
    "type": 0,
    "api": "https://suoniapi.com/api.php/provide/vod/at/xml",
    "searchable": 1,
@@ -735,33 +735,6 @@
   },
   {
    "key": "live082",
-   "name": "如意资源网",
-   "type": 0,
-   "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live083",
-   "name": "魔都资源采集网",
-   "type": 0,
-   "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live084",
-   "name": "新浪资源",
-   "type": 0,
-   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live085",
    "name": "金鹰影视",
    "type": 0,
    "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml",
@@ -770,16 +743,34 @@
    "filterable": 1
   },
   {
-   "key": "live086",
-   "name": "非凡影视",
+   "key": "live083",
+   "name": "新浪资源",
    "type": 0,
-   "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml",
+   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
   },
   {
-   "key": "live087",
+   "key": "live084",
+   "name": "魔都资源采集网",
+   "type": 0,
+   "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live085",
+   "name": "aqy",
+   "type": 0,
+   "api": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live086",
    "name": "iKun资源",
    "type": 0,
    "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
@@ -788,10 +779,19 @@
    "filterable": 1
   },
   {
-   "key": "live088",
-   "name": "aqy",
+   "key": "live087",
+   "name": "如意资源网",
    "type": 0,
-   "api": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
+   "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live088",
+   "name": "暴风影视",
+   "type": 0,
+   "api": "https://by.bfzyapi.com/api.php/provide/vod/at/xml",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
@@ -825,60 +825,6 @@
   },
   {
    "key": "live092",
-   "name": "OK资源",
-   "type": 0,
-   "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live093",
-   "name": "U酷资源",
-   "type": 0,
-   "api": "https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live094",
-   "name": "牛牛资源",
-   "type": 0,
-   "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live095",
-   "name": "闪电资源",
-   "type": 0,
-   "api": "https://shandianzy.com/api.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live096",
-   "name": "鸭鸭资源2",
-   "type": 0,
-   "api": "https://yayazy2.com/api.php/provide/vod/at/xml",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live097",
-   "name": "🍊柚子资源",
-   "type": 0,
-   "api": "https://api.yzzy-api.com/inc/api.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "live098",
    "name": "U酷影视",
    "type": 0,
    "api": "https://api.ukuapi88.com/api.php/provide/vod/from/ukm3u8/at/xml",
@@ -887,7 +833,7 @@
    "filterable": 1
   },
   {
-   "key": "live099",
+   "key": "live093",
    "name": "柚子影视",
    "type": 0,
    "api": "https://api.yzzy-api.com/inc/api.php/provide/vod/at/xml",
@@ -896,7 +842,7 @@
    "filterable": 1
   },
   {
-   "key": "live100",
+   "key": "live094",
    "name": "量子影视(2)",
    "type": 0,
    "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml",
@@ -905,10 +851,64 @@
    "filterable": 1
   },
   {
-   "key": "live101",
-   "name": "暴风影视",
+   "key": "live095",
+   "name": "非凡影视",
    "type": 0,
-   "api": "https://by.bfzyapi.com/api.php/provide/vod/at/xml",
+   "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live096",
+   "name": "OK资源",
+   "type": 0,
+   "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live097",
+   "name": "U酷资源",
+   "type": 0,
+   "api": "https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live098",
+   "name": "牛牛资源",
+   "type": 0,
+   "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live099",
+   "name": "闪电资源",
+   "type": 0,
+   "api": "https://shandianzy.com/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live100",
+   "name": "鸭鸭资源2",
+   "type": 0,
+   "api": "https://yayazy2.com/api.php/provide/vod/at/xml",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "live101",
+   "name": "🍊柚子资源",
+   "type": 0,
+   "api": "https://api.yzzy-api.com/inc/api.php",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
