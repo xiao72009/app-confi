@@ -1,0 +1,81 @@
+{
+  "key": "mybox",
+  "name": "我的影视仓",
+  "spider": "",
+  "sites": [
+    {
+      "key": "sbe0af2",
+      "name": "小肥羊的点播台",
+      "type": 1,
+      "api": "https://caiji.mgzyapi.com/api.php/provide/vod/",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "sbe0afm",
+      "name": "芒果资源",
+      "type": 1,
+      "api": "https://caiji.mgzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "s994685",
+      "name": "红牛资源",
+      "type": 1,
+      "api": "https://hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sef763a",
+      "name": "百度资源",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "s1e40a5",
+      "name": "金鹰点播",
+      "type": 1,
+      "api": "https://jinyingzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "s117646",
+      "name": "魔都资源",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "s7cfc5d",
+      "name": "豪华资源",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sbd3301",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [],
+  "lives": [
+    {
+      "name": "小肥羊的直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/live.txt",
+      "playerType": 1,
+      "epg": "https://epg.pw/xmltv/epg_CN.xml"
+    }
+  ]
+}

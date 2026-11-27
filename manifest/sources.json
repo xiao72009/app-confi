@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-26T02:56:27Z",
+  "generated": "2026-11-27T02:56:20Z",
   "vod": [
     {
       "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/hkuc.json",
@@ -15,8 +15,20 @@
       "checked": true
     },
     {
+      "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-thqprivaterepo-tvbox-dc-mybox-pure-json.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
       "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-howkongfish-tvbox-json-merged-json.json",
       "name": "发现：HowKongFish/tvbox-json/merged.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-yaosongjin-my-tvbox-ysc-json.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
       "plugin": false,
       "checked": true
     },
@@ -29,18 +41,6 @@
     {
       "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-huangweiping6666-tvbox-top100-top100-json.json",
       "name": "发现：huangweiping6666/tvbox-top100/top100.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-thqprivaterepo-tvbox-dc-mybox-pure-json.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://gitee.com/xiao72009/tvappconfig/raw/master/mirror/vod/found-zhangxiansheng070422-tvbox-config-api-json.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
       "plugin": false,
       "checked": true
     },
@@ -105,13 +105,13 @@
       "checked": true
     },
     {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
       "name": "liu673cn/box",
       "plugin": true,
       "checked": true
     },
     {
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
       "name": "liu673cn/box",
       "plugin": true,
       "checked": true
@@ -159,13 +159,13 @@
       "checked": true
     },
     {
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolei7172/tvbox/master/dianshi.json",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/xiaolei7172/tvbox/master/dianshi.json",
       "name": "xiaolei7172/tvbox",
       "plugin": true,
       "checked": true
     },
     {
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/xiaolei7172/tvbox/master/dianshi.json",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolei7172/tvbox/master/dianshi.json",
       "name": "xiaolei7172/tvbox",
       "plugin": true,
       "checked": true
@@ -201,6 +201,30 @@
       "checked": true
     },
     {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.json",
       "name": "发现：HowKongFish/tvbox-json/merged.json",
       "plugin": false,
@@ -221,6 +245,30 @@
     {
       "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.json",
       "name": "发现：HowKongFish/tvbox-json/merged.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
       "plugin": false,
       "checked": true
     },
@@ -273,67 +321,19 @@
       "checked": true
     },
     {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhangxiansheng070422/tvbox-config/main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/zhangxiansheng070422/tvbox-config/main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/zhangxiansheng070422/tvbox-config/main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/zhangxiansheng070422/tvbox-config/main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/0/anaer_meow.json",
       "name": "hkuc 直连",
       "plugin": false,
       "checked": true
     },
     {
-      "url": "https://fastly.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/0/anaer_meow.json",
+      "url": "https://cdn.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/0/anaer_meow.json",
       "name": "hkuc 直连",
       "plugin": false,
       "checked": true
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/0/anaer_meow.json",
+      "url": "https://fastly.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/0/anaer_meow.json",
       "name": "hkuc 直连",
       "plugin": false,
       "checked": true
@@ -381,13 +381,13 @@
       "checked": true
     },
     {
-      "url": "https://fastly.jsdelivr.net/gh/qist/tvbox@master/jsm.json",
+      "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json",
       "name": "qist/tvbox",
       "plugin": true,
       "checked": true
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json",
+      "url": "https://fastly.jsdelivr.net/gh/qist/tvbox@master/jsm.json",
       "name": "qist/tvbox",
       "plugin": true,
       "checked": true
@@ -411,13 +411,13 @@
       "checked": true
     },
     {
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+      "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0827.json",
       "name": "gaotianliuyun",
       "plugin": true,
       "checked": true
     },
     {
-      "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0827.json",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
       "name": "gaotianliuyun",
       "plugin": true,
       "checked": true
@@ -426,6 +426,24 @@
       "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/0827.json",
       "name": "gaotianliuyun",
       "plugin": true,
+      "checked": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/thqPrivateRepo/tvbox-dc@main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/thqPrivateRepo/tvbox-dc@main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
+      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
+      "plugin": false,
       "checked": true
     },
     {
@@ -443,6 +461,24 @@
     {
       "url": "https://raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.json",
       "name": "发现：HowKongFish/tvbox-json/merged.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/yaosongjin/my-tvbox@main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/yaosongjin/my-tvbox@main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
+      "plugin": false,
+      "checked": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yaosongjin/my-tvbox/main/ysc.json",
+      "name": "发现：yaosongjin/my-tvbox/ysc.json",
       "plugin": false,
       "checked": true
     },
@@ -479,42 +515,6 @@
     {
       "url": "https://raw.githubusercontent.com/huangweiping6666/tvbox-top100/main/top100.json",
       "name": "发现：huangweiping6666/tvbox-top100/top100.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/gh/thqPrivateRepo/tvbox-dc@main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://fastly.jsdelivr.net/gh/thqPrivateRepo/tvbox-dc@main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/thqPrivateRepo/tvbox-dc/main/mybox-pure.json",
-      "name": "发现：thqPrivateRepo/tvbox-dc/mybox-pure.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/gh/zhangxiansheng070422/tvbox-config@main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://fastly.jsdelivr.net/gh/zhangxiansheng070422/tvbox-config@main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
-      "plugin": false,
-      "checked": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/zhangxiansheng070422/tvbox-config/main/api.json",
-      "name": "发现：zhangxiansheng070422/tvbox-config/api.json",
       "plugin": false,
       "checked": true
     }
@@ -581,13 +581,13 @@
       "checked": true
     },
     {
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+      "url": "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.txt",
       "name": "vbskycn 每日校验",
       "plugin": false,
       "checked": true
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.txt",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
       "name": "vbskycn 每日校验",
       "plugin": false,
       "checked": true
